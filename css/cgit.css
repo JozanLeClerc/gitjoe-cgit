@@ -53,14 +53,15 @@ div#cgit table#header td.logo {
 }
 
 div#cgit table#header td.main {
-	color: #292929;
+	color: #5d0003;
+	font-weight: bolder;
 	font-size: 250%;
 	padding-left: 10px;
 	white-space: nowrap;
 }
 
 div#cgit table#header td.main a {
-	color: #292929;
+	color: #5d0003;
 }
 
 div#cgit table#header td.form {
