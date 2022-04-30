@@ -138,6 +138,16 @@ div#cgit div.content {
 	border-bottom: solid 3px #ccc;
 }
 
+div.figure
+{
+	padding: 1em;
+}
+
+div.figure p
+{
+	font-size: 90%;
+	text-align: center;
+}
 
 div#cgit table.list {
 	width: 100%;
