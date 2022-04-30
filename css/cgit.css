@@ -257,6 +257,7 @@ div#cgit div.content ul {
 .markdown-body .highlight pre, .markdown-body pre {
 	background-color: #f8f8f8;
 	border-radius: 3px;
+	color: #000;
 	margin: 0;
 	overflow: auto;
 	padding: 6px 10px;
