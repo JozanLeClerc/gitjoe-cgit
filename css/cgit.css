@@ -231,28 +231,13 @@ div#cgit div.content ul {
 	list-style: square;
 }
 
-div#cgit div.content code {
-	font-family: monospace;
-	font-size: smaller;
+.markdown-body code, .markdown-body tt {
+	margin: 0 2px;
+	padding: 2px 5px;
+	/* border: 1px solid #eea4a4; */
 	background-color: #eee4e4;
 	color: #900006;
-	border-radius: 5px;
-	padding: 2pt;
-}
-
-.div#cgit div.content .markdown-body .highlight pre, .markdown-body pre {
-	font-family: monospace;
-	color: #400006;
-	background-color: #eee4e4;
 	border-radius: 3px;
-	display: block;
-	margin: 0;
-	overflow: auto;
-	margin-left: 1em;
-	margin-right: 1em;
-	padding: 6px 10px;
-	white-space: pre;
-	border: 1px solid #9d0006;
 }
 
 .markdown-body pre>code {
@@ -269,7 +254,17 @@ div#cgit div.content code {
 	border: none;
 }
 
-div.body-contents hr {
+.markdown-body .highlight pre, .markdown-body pre {
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	margin: 0;
+	overflow: auto;
+	padding: 6px 10px;
+	white-space: pre;
+	border: 1px solid #ccc4c4;
+}
+
+div#cgit div.content hr {
 	border-top: none;
 	border-bottom: 1px solid #9d0006;
 	width: 80%;
