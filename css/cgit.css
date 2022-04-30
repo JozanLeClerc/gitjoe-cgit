@@ -6,6 +6,7 @@ body {
 	font-family: sans-serif;
 	background-color: #f5f5f5;
 }
+
 div#cgit {
 	padding: 0em;
 	margin: 0em;
@@ -13,6 +14,8 @@ div#cgit {
 	position: relative;
 	height: 100%;
 	min-height: 100%;
+	tab-size: 4;
+	-moz-tab-size: 4;
 }
 
 div#cgit a {
@@ -39,7 +42,7 @@ div#cgit table {
 div#cgit table#header {
 	background-color: #ededed;
 	width: 100%;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 	border-bottom: 2pt solid #aaa;
 	border-top: 0pt;
 }
@@ -83,7 +86,7 @@ div#cgit table#header td.sub {
 div#cgit table.tabs {
 	border-bottom: 1pt solid #9d0006;
 	border-collapse: collapse;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: 0px;
 	width: 100%;
 }
@@ -154,6 +157,123 @@ div.figure p
 	text-align: center;
 }
 
+div#cgit div.content {
+	padding: 5pt 0 5pt 0;
+	padding-bottom: 2.5rem;
+	margin-left: 10%;
+	margin-right: 20%;
+	line-height: 1.5em;
+}
+
+div#cgit div.content h1 {
+	font-size: 140%;
+	font-weight: bold;
+	text-align: left;
+	padding: 0em 0em 0.25rem 0em;
+	margin: 0pt;
+	margin-top: 0.75em;
+	color: #9d0006;
+	border-bottom: 2px solid #9d0006;
+}
+
+div#cgit div.content h2 {
+	font-size: 130%;
+	font-weight: bold;
+	text-align: left;
+	padding: 0em 0em 0.25rem 0em;
+	margin: 0pt;
+	margin-top: 2em;
+	color: #9d0006;
+	border-bottom: 1px solid #9d0006;
+}
+
+div#cgit div.content h3 {
+	font-size: 115%;
+	font-weight: bold;
+	text-align: left;
+	padding: 0em 0em 0.25rem 0em;
+	margin: 0pt;
+	margin-top: 2em;
+	color: #9d0006;
+}
+
+div#cgit div.content h4 {
+	font-size: 110%;
+	font-weight: bold;
+	text-align: left;
+	padding: 0em 0em 0.20rem 0em;
+	margin: 0pt;
+	margin-top: 1em;
+}
+
+div#cgit div.content p {
+	margin: 1em 1ex 1em 1ex !important;
+}
+
+div#cgit div.content b {
+	font-weight: bold;
+	color: #9d0006;
+}
+
+div#cgit div.content strong {
+	font-weight: bold;
+	color: #9d0006;
+}
+
+div#cgit div.content li {
+	display: list-item;
+	padding: 0.10rem 0pt 0.10rem 0pt;
+}
+
+div#cgit div.content ul {
+	padding: 0em 6ex 0em 6ex;
+	margin: 0;
+	list-style: square;
+}
+
+div#cgit div.content code {
+	font-family: monospace;
+	font-size: smaller;
+	background-color: #eee4e4;
+	color: #900006;
+	border-radius: 5px;
+	padding: 2pt;
+}
+
+.div#cgit div.content .markdown-body .highlight pre, .markdown-body pre {
+	font-family: monospace;
+	color: #400006;
+	background-color: #eee4e4;
+	border-radius: 3px;
+	display: block;
+	margin: 0;
+	overflow: auto;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 6px 10px;
+	white-space: pre;
+	border: 1px solid #9d0006;
+}
+
+.markdown-body pre>code {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+.markdown-body pre code, .markdown-body pre tt {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+div.body-contents hr {
+	border-top: none;
+	border-bottom: 1px solid #9d0006;
+	width: 80%;
+}
 div#cgit table.list {
 	width: 100%;
 	border: none;
@@ -161,39 +281,19 @@ div#cgit table.list {
 }
 
 div#cgit table.list tr {
-	background: white;
 }
 
 div#cgit table.list tr.logheader {
-	background: #eee;
-}
-
-div#cgit table.list tr:nth-child(even) {
-	background: #f7f7f7;
-}
-
-div#cgit table.list tr:nth-child(odd) {
-	background: white;
 }
 
 div#cgit table.list tr:hover {
-	background: #eee;
+	background: #eee4e4;
 }
 
 div#cgit table.list tr.nohover {
-	background: white;
 }
 
 div#cgit table.list tr.nohover:hover {
-	background: white;
-}
-
-div#cgit table.list tr.nohover-highlight:hover:nth-child(even) {
-	background: #f7f7f7;
-}
-
-div#cgit table.list tr.nohover-highlight:hover:nth-child(odd) {
-	background: white;
 }
 
 div#cgit table.list th {
