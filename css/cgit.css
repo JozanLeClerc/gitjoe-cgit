@@ -1,19 +1,34 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: sans-serif;
+	background-color: #f5f5f5;
+}
 div#cgit {
 	padding: 0em;
 	margin: 0em;
-	font-family: sans-serif;
-	font-size: 10pt;
-	color: #333;
-	background: white;
-	padding: 4px;
+	background-color: #f5f5f5;
+	position: relative;
+	height: 100%;
+	min-height: 100%;
 }
 
 div#cgit a {
-	color: blue;
+	color: #9d0006;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+div#cgit a:visited {
+	color: #9d0006;
+	background-color: transparent;
 	text-decoration: none;
 }
 
 div#cgit a:hover {
+	color: #9d0006;
 	text-decoration: underline;
 }
 
@@ -22,8 +37,11 @@ div#cgit table {
 }
 
 div#cgit table#header {
+	background-color: #ededed;
 	width: 100%;
 	margin-bottom: 1em;
+	border-bottom: 2pt solid #aaa;
+	border-top: 0pt;
 }
 
 div#cgit table#header td.logo {
@@ -32,13 +50,14 @@ div#cgit table#header td.logo {
 }
 
 div#cgit table#header td.main {
+	color: #292929;
 	font-size: 250%;
 	padding-left: 10px;
 	white-space: nowrap;
 }
 
 div#cgit table#header td.main a {
-	color: #000;
+	color: #292929;
 }
 
 div#cgit table#header td.form {
@@ -56,7 +75,7 @@ div#cgit table#header td.form select {
 }
 
 div#cgit table#header td.sub {
-	color: #777;
+	color: #555;
 	border-top: solid 1px #ccc;
 	padding-left: 10px;
 }
