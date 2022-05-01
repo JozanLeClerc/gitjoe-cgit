@@ -162,7 +162,10 @@ div#cgit div.content {
 	padding: 5pt 0 5pt 0;
 	padding-bottom: 2.5rem;
 	margin-left: 10%;
-	margin-right: 20%;
+	margin-right: 10%;
+}
+
+div#cgit div.content div#summary {
 	line-height: 1.5em;
 }
 
@@ -277,20 +280,8 @@ div#cgit table.list {
 	border-collapse: collapse;
 }
 
-div#cgit table.list tr {
-}
-
-div#cgit table.list tr.logheader {
-}
-
 div#cgit table.list tr:hover {
 	background: #eee4e4;
-}
-
-div#cgit table.list tr.nohover {
-}
-
-div#cgit table.list tr.nohover:hover {
 }
 
 div#cgit table.list th {
@@ -354,11 +345,11 @@ div#cgit table.list td a {
 
 div#cgit table.list td a.ls-dir {
 	font-weight: bold;
-	color: #00f;
+	color: #22e;
 }
 
 div#cgit table.list td a:hover {
-	color: #00f;
+	color: #9d0006;
 }
 
 div#cgit img {
@@ -406,7 +397,7 @@ div#cgit div#blob {
 }
 
 div#cgit div.error {
-	color: red;
+	color: #bf0009;
 	font-weight: bold;
 	margin: 1em 2em;
 }
@@ -706,8 +697,10 @@ div#cgit .right {
 }
 
 div#cgit table.list td.reposection {
-	font-style: italic;
-	color: #888;
+	font-weight: bold;
+	font-size: 150%;
+	color: #977;
+	padding: 1.5em 0em 0.5em 0em;
 }
 
 div#cgit a.button {
@@ -744,7 +737,7 @@ div#cgit ul.pager li {
 }
 
 div#cgit ul.pager a {
-	color: #777;
+	color: #7
 }
 
 div#cgit ul.pager .current {
